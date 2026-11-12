@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  /* Degradado suave de rosa muy claro a rosa pastel */
+  background: linear-gradient(135deg, #fdf2f8 0%, #f472b6 100%);
+  color: #831843; /* Texto en tono frambuesa oscuro para que se lea muy bien */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #9d174d; /* Título en rosa intenso oscuro */
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #f472b6; /* Borde rosa medio */
+  background: #ffffff; /* Fondo blanco limpio */
+  color: #831843;
+  width: 250px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #f472b6; /* Texto de ejemplo en rosa suave */
+}
+
+button {
+  padding: 10px 20px;
+  background: #ec4899; /* Botón en rosa vibrante */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #db2777; /* Rosa más intenso al pasar el cursor */
+}
+
+.weather-card {
+  background: #fff1f2; /* Tarjeta en blanco con un toque rosa pálido */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(157, 23, 77, 0.25); /* Sombra rosada sutil */
+  max-width: 480px;
+  text-align: center;
+  border: 2px solid #fbcfe8; /* Borde rosa pastel */
+  line-height: 1.6;
+}
+
+.description {
+  font-size: 14px;
+  background: #fce7f3; /* Caja interior en rosa bebé muy suave */
+  color: #831843;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.geo-data {
+  font-size: 13px;
+  color: #9d174d; /* Rosa frambuesa */
+}
+
+.weather-data h4 {
+  margin: 5px 0;
+  color: #be185d; /* Subtítulos en rosa fuerte */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.success-footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #9d174d;
+  font-weight: bold;
+}
